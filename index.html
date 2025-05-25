@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemonlar</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <style type="text/tailwindcss">
+
+    </style>
+</head>
+<body>
+    <header class="pt-[25px]">
+       <div class="containers">
+         <div>
+            <input class="relative search-input rounded-[20px]  mb-[40px] w-[760px]  py-[19px] pl-[40px]   outline-none shadow-md shadow-slate-500 focus:shadow-red-500" type="text" placeholder="Enter name or random number...">
+         <button class="absolute top-[30px] left-[745px]  border-[1px] border-red-500 duration-400 bg-red-500 hover:bg-transparent rounded-[25px] w-[60px] h-[45px] text-white hover:text-red-500"><svg class="mx-auto" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+</svg></button>
+        </div>
+        <ul class="pokemon-list flex flex-wrap gap-[50px]  justify-around  w-[750px]"></ul>
+
+        <div class="fixed bottom-0 right-[20px] bg-white rounded-[15px] w-[400px] h-[490px] shadow-lg shadow-slate-900">
+
+        </div>
+
+
+       </div>
+    </header>
+
+
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
